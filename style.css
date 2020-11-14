@@ -5,15 +5,12 @@
           box-sizing: border-box;
 }
 
-html {
+:root {
   --background: white;
   --text: black;
 }
 
-html[data-theme='dark'] {
-  --background: black;
-  --text: white;
-}
+
 
 body {
   height: 100vh;
